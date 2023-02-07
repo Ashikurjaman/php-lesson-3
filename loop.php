@@ -10,7 +10,7 @@
 //     }
 // }
 
-echo PHP_EOL;
+// echo PHP_EOL;
 
 // $i = 1;
 // while($i<10){
@@ -27,9 +27,16 @@ echo PHP_EOL;
 
 
 
-// multiple stepping
+// // multiple stepping
 
-for($i=10,$j=1; $i>0;$i--,$j++){
-    echo $i.":".$j;
-    echo PHP_EOL;
+// for($i=10,$j=1; $i>0;$i--,$j++){
+//     echo $i.":".$j;
+//     echo PHP_EOL;
+// }
+
+
+for($i=1,$j=1; $i<100; $i+=7,$j+=11){
+    print $i."\n";
+    echo $j<100 ? $j."\n" : "";
+
 }
