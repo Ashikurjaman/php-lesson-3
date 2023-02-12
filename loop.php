@@ -91,3 +91,24 @@ if(isEven($num)){
 }else{
     echo "$num is a odd number";
 }
+echo PHP_EOL;
+
+$X=5;
+echo fab($X);
+echo PHP_EOL;
+
+
+$x= "tea";
+$y="";
+serve($x,$y);
+
+echo PHP_EOL;
+printN(1);
+
+
+echo PHP_EOL;
+printnumber(20,30);
+
+
+echo PHP_EOL;
+fabonacci(0,1,1,15);
