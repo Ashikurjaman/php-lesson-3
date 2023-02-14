@@ -78,7 +78,7 @@ $new= $new + $veryOld;
 $veryOld = $old;
 } */
 
-$num = 14;
+/* $num = 14;
 if (isEven($num)) {
     echo "$num is a even number";
 } else {
@@ -102,3 +102,46 @@ printnumber(20, 30);
 
 echo PHP_EOL;
 fabonacci(0, 1, 1, 15);
+
+
+$number = 19;
+echo check_even_odd($number); 
+
+
+$sum = 0;
+
+for ($i = 1; $i <= 100; $i++) {
+  $sum += $i;
+}
+
+echo $sum; */
+
+for ($i=1; $i <5; $i++) { 
+        for ($y=0; $y<$i; $y++) { 
+            echo "*";
+            if($y <$i){
+                echo " ";
+            }
+        }
+        echo "\n";
+        
+}
+
+
+$n=5;
+
+for ($i=0; $i <$n ; $i++) { 
+    # code...
+    for ($j=0; $j <=$i ; $j++) { 
+        echo "*";
+    }
+    echo "\n";
+}
+
+    for ($i=$n; $i >=1 ; $i--) { 
+        # code...
+        for ($j=1; $j <=$i ; $j++) { 
+            echo "*";
+        }
+        echo "\n";
+    }

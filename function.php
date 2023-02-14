@@ -64,3 +64,18 @@ function fabonacci($old, $start, $new, $end)
 
     fabonacci($old, $start, $new, $end);
 }
+
+
+
+
+function check_even_odd($number) {
+  if($number % 2 == 0) {
+    return 'Even';
+  } else {
+    return 'Odd';
+  }
+}
+
+$number = 19;
+echo check_even_odd($number); 
+
